@@ -56,14 +56,14 @@ a:focus {
 
 .navbar-custom {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(0, 255, 200, 0.3);
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
 }
 .navbar-custom .navbar-toggle {
   color: white;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 255, 200, 0.3);
   font-size: 12px;
 }
 .navbar-custom .navbar-toggle:focus,
@@ -98,7 +98,7 @@ a:focus {
   outline: none;
 }
 .navbar-custom .nav li.active a {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 255, 200, 0.3);
 }
 .navbar-custom .nav li.active a:hover {
   color: white;
@@ -115,8 +115,8 @@ a:focus {
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(90, 90, 90, 1);
+    /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
   }
 }
 .intro {
@@ -227,19 +227,22 @@ a:focus {
   padding: 50px 0;
   color: white;
   background: url(../img/calendar-main.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: rgb(90,90,09);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
 }
 
+.impdat{
+    color: rgb(0,240,200);
+    font-weight: bolder;
+}
 .topics-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/topics-main.jpg) no-repeat center center scroll;
-  background-color: black;
+  background-color: rgb(90,90,90);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -367,9 +370,66 @@ body {
     margin: 10px;
     padding: 10px;
     font-size: 10px;
-    background-color: rgba(0,255,200,0.4);
+    background-color: rgba(0,255,200,0.2);
     border-radius: 20px;
 }
 
+.submission-section{
+    background: url(../img/topics-main.jpg) no-repeat center center scroll;
+    background-color: rgba(0,255,200,0.4);
+}
 
+/*carousel code*/
 
+.main-text
+{
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+.btn-min-block
+{
+    min-width: 170px;
+    line-height: 26px;
+}
+.btn-clear
+{
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+.btn-clear:hover
+{
+    color: #000;
+    background-color: #FFF;
+}
+
+.slideshow{
+    width: 100%;
+}
+
+.committee-section{
+  background: url(../img/progcom-main.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.program-section{
+    background: url(../img/program-main.jpg) no-repeat bottom center scroll;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.footer{
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 20px;
+}
